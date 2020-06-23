@@ -4,8 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Portfolio
 - type: jekyll-pages
-  label: Pages
+  label: Resources
   create: all
 - type: jekyll-posts
   label: Posts
